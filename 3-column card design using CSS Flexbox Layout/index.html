@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-layout</title>
+    <style>
+        *{
+            margin: auto;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: whitesmoke;
+            
+        }
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 100px;
+        }
+        .car1{
+            background-color: orange;
+            padding: 10%;
+            width: 100%;
+        }
+        .car1 h1{
+            color: white;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        } 
+        .first-content{
+            color: white;
+            margin-bottom: 100px;
+           
+        }
+        .car1 button{
+            background-color: white;
+            border-color: white;
+            border-radius: 50px;
+            border-style: none;
+            padding: 8px;
+            color: orange;
+        }
+
+        .car2{
+            background-color: rgb(6, 6, 100);
+            padding: 10%;
+            width: 100%;
+        }
+        .car2 h1{
+            color: white;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        } 
+        .second-content{
+            color: white;
+            margin-bottom: 100px;
+        }
+        .car2 button{
+            background-color: white;
+            border-radius: 50px;
+            border-style: none;
+            padding: 8px;
+            columns: rgb(6, 6, 100); ;
+        }
+
+        .car3{
+            background-color: rgb(3, 39, 3);
+            padding: 10%;
+            width: 100%;
+        }
+        .car3 h1{
+            color: white;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        } 
+        .third-content{
+            color: white;
+            margin-bottom: 100px;
+        }
+        .car3 button{
+            background-color: white;
+            border-color: white;
+            border-radius: 50px;
+            padding: 8px;
+            columns: rgb(6, 94, 6);
+            border-style: none;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="car1">
+            <img src="icon-sedans.svg" alt="sedans">
+            <h1>SEDANS</h1>
+            <p class="first-content">Choose a Sedan for its affordability and excellent fuel economy.
+                Ideal for cruising in the city or on your next road trip.
+            </p>
+            <button>Learn More</button>
+        </div>
+        <div class="car2">
+            <img src="icon-suvs.svg" alt="SUV">
+            <h1>SUVS</h1>
+            <p class="second-content">Take an SUV for its spacious interior, power, and versatility. Perfect for your
+                next family vacation and off-road adventures.
+            </p>
+            <button>Learn More</button>
+        </div>
+        <div class="car3">
+            <img src="icon-luxury.svg" alt="luxury">
+            <h1>LUXURY</h1>
+            <p class="third-content">Criuse in the best car brands without the bloated prices. Enjoy the enchanced
+                comfort of a luxury rental and arrive in style. 
+            </p>
+            <button>Learn More</button>
+        </div>
+    </main>
+</body>
+</html>
